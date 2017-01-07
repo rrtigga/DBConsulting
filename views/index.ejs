@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DB Consulting</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel='stylesheet' href='/stylesheets/menu.css' />
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<script src="/javascripts/modernizr.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container">
+		<a class="menuText" href="#" id="trigger-overlay"><p>Menu</button></p></a>
+		<section id="hero">
+			<h1 class="headerText">We can <span id="recycle">bring ideas to life.</span></h1>
+			<div class="connectButton"><p>Get in Touch.</p></div>
+		</section>
+	</div>
+	<!-- open/close -->
+	<div class="overlay overlay-hugeinc">
+		<button type="button" class="overlay-close">Close</button>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Work</a></li>
+				<li><a href="#">Clients</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<script src="/javascripts/menu.js" type="text/javascript"></script>
+	<script src="/javascripts/classie.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="/javascripts/typed.js" type="text/javascript"></script>
+	<script>
+    $(function(){
+      $("#recycle").typed({
+        strings: ["develop your product.", "launch your app.", "grow your business.", "optimize your webpage.", "lead you to success."],
+        typeSpeed: 75,
+        // time before typing starts
+        startDelay: 1500,
+        // backspacing speed
+        backSpeed: 15,
+         // time before backspacing
+         backDelay: 1250,
+        //infinite
+        loop: false
+      });
+    });
+  </script>
+</body>
+</html>

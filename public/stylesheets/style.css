@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif; }
+
+.green {
+  color: green; }
+
+.container {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto; }
+
+.menuText {
+  text-decoration: none;
+  float: right;
+  color: #171616;
+  margin: 0 15px; }
+
+#hero {
+  padding-top: 10%;
+  margin: 0 15px; }
+  #hero .headerText {
+    font-size: 64px; }
+    #hero .headerText span {
+      color: #64D9B6; }
+  #hero .connectButton {
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #171616;
+    border-radius: 18px;
+    padding: 0 20px;
+    display: table; }
+  #hero .connectButton:hover {
+    background: #171616;
+    color: white; }
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
