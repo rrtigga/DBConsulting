@@ -11,17 +11,25 @@ body {
   max-width: 1020px;
   margin: 0 auto; }
 
-.menuText {
-  text-decoration: none;
-  float: right;
-  color: #171616;
-  margin: 0 15px; }
+p {
+  font-size: 18px; }
+
+.alignCenter {
+  text-align: center; }
+
+.center {
+  display: block;
+  margin: 0 auto; }
 
 #hero {
   padding-top: 100px;
   margin: 0 15px; }
   #hero .headerText {
-    font-size: 64px; }
+    font-size: 64px;
+    min-height: 200px; }
+    @media (max-width: 640px) {
+      #hero .headerText {
+        font-size: 48px; } }
     #hero .headerText span {
       color: #64D9B6; }
   #hero .connectButton {
@@ -35,8 +43,40 @@ body {
     color: white; }
 
 #about {
-  padding-top: 500px;
+  padding-top: 200px;
   margin: 0 15px; }
+  #about h1 {
+    font-size: 36px; }
+  #about p {
+    font-size: 28px; }
+
+#services {
+  padding-top: 200px;
+  margin: 0 15px; }
+  #services h1 {
+    font-size: 36px; }
+  #services p {
+    font-size: 20px; }
+  #services img {
+    max-width: 50px;
+    width: 50px;
+    height: auto; }
+
+#footer {
+  padding-top: 200px;
+  margin: 0 15px; }
+  #footer h1 {
+    font-size: 36px; }
+  #footer .connectButton {
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #171616;
+    border-radius: 18px;
+    padding: 0 20px;
+    display: table;
+    margin: 100px 0; }
+  #footer .connectButton:hover {
+    background: #171616;
+    color: white; }
 
 /* Bouncing Arrow */
 @-moz-keyframes bounce {
@@ -88,7 +128,7 @@ body {
   background-size: contain;
   background-image: url("../images/arrow.png");
   background-repeat: no-repeat;
-  margin-top: 350px; }
+  margin-top: 250px; }
 
 .bounce {
   -moz-animation: bounce 2s infinite;
